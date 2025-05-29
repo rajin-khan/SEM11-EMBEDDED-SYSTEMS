@@ -131,7 +131,7 @@ add r6, r1, r2
 
 label: _start (default label)
 opcode: add
-operands (not immediate, as many operands): r1, r2
+operands (not immediate, as many operands): r1, r2 (arm instruction categories depend on the operand)
 destination: r6 
 
 another example:
