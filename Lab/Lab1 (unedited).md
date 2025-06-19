@@ -107,7 +107,7 @@ let's look at examples:
 
 label:
 every label is followed by a colon, (eg, _start:)
-every code starts at a labels.
+every code starts at a label.
 
 opcode:
 mov r0, #7
