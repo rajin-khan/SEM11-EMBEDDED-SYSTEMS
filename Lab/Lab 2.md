@@ -57,6 +57,7 @@ Example:
 _start:
     ldr r0, =CSE331L  ; load the address of CSE331L into r0
     ldr r1, [r0]      ; load the value into r1
+```
 
 **Storing Values**
 ----------------
@@ -68,9 +69,11 @@ The `STR` instruction also has two steps:
 Note: The destination register comes later in the `STR` instruction**.
 
 Example:
+
 ```bash
 ldr r0, =CSE331L
 str r1, [r0]      ; store the value in r1 into the address in r0
+```
 
 **Addresses**
 =============
